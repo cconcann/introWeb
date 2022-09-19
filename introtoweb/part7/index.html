@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset = "utf-8">
+        
+    </head>
+    <body>
+       
+       
+<!-- this creates an input id with the preset saying enter your name-->
+<input id="name-input" type="text" placeholder="Enter your name" />
+<!-- this creates a button saying click me-->
+<button id="my-button">Click Me</button>
+
+<!--script tag-->
+<!--i could not enter comments below this line so each additional comment follows the next line -->
+<!--creates a var my button that goes to document titled my button-->
+<!--creates var nameinput that does the same as above with name-input-->
+<!--creates an event listener that acitvates on click and executes the function function-->
+<!--if line where when clicked does the thing-->
+<!--when clicked pops up a message sayig hello the name entered above-->
+<script>
+  var myButton = document.querySelector('#my-button');
+  var nameInput = document.querySelector('#name-input');
+
+  myButton.addEventListener('click', function () {
+    if (nameInput.value !== '') {
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
+
+        
+        
+    </body>
+
+</html>

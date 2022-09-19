@@ -1,0 +1,17 @@
+body 
+{
+    color: #ED254E;
+    background-color: #9DF7E5;
+}
+
+.maintitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    margin-bottom: 12pt;
+}
+
+h2 {
+    text-align: center;
+}
